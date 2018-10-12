@@ -15,6 +15,7 @@
 		AA223AC62171295D002C0B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA223AC42171295D002C0B6D /* LaunchScreen.storyboard */; };
 		AA223AD12171295D002C0B6D /* oct_11_coredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223AD02171295D002C0B6D /* oct_11_coredataTests.swift */; };
 		AA223ADC2171295D002C0B6D /* oct_11_coredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223ADB2171295D002C0B6D /* oct_11_coredataUITests.swift */; };
+		AA223AEA21712BDA002C0B6D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223AE921712BDA002C0B6D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA223AD72171295D002C0B6D /* oct_11_coredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oct_11_coredataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA223ADB2171295D002C0B6D /* oct_11_coredataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oct_11_coredataUITests.swift; sourceTree = "<group>"; };
 		AA223ADD2171295D002C0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA223AE921712BDA002C0B6D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AA223AC42171295D002C0B6D /* LaunchScreen.storyboard */,
 				AA223AC72171295D002C0B6D /* Info.plist */,
 				AA223ABF2171295B002C0B6D /* oct_11_coredata.xcdatamodeld */,
+				AA223AE921712BDA002C0B6D /* TableViewController.swift */,
 			);
 			path = oct_11_coredata;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				AA223ABB2171295B002C0B6D /* ViewController.swift in Sources */,
 				AA223AC12171295B002C0B6D /* oct_11_coredata.xcdatamodeld in Sources */,
 				AA223AB92171295B002C0B6D /* AppDelegate.swift in Sources */,
+				AA223AEA21712BDA002C0B6D /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
