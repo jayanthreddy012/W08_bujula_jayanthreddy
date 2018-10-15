@@ -24,7 +24,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gc2-QP-se3">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Deptartment name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gc2-QP-se3">
                                 <rect key="frame" x="16" y="93" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -38,7 +38,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Unb-AR-lBe">
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Course number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Unb-AR-lBe">
                                 <rect key="frame" x="16" y="165" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wq3-11-OvG">
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wq3-11-OvG">
                                 <rect key="frame" x="16" y="232" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
@@ -65,7 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Save Information"/>
                                 <connections>
-                                    <segue destination="fDT-rH-fV7" kind="unwind" unwindAction="unwindFromSaveWithSegue:" id="Jvg-Da-mQm"/>
+                                    <action selector="saveInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vEH-GE-yLb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -76,6 +76,7 @@
                         <outlet property="courseNum" destination="Unb-AR-lBe" id="wiF-Eg-YY0"/>
                         <outlet property="courseTitle" destination="Wq3-11-OvG" id="2km-lL-ZXT"/>
                         <outlet property="deptAbbr" destination="Gc2-QP-se3" id="Am3-OJ-9Ax"/>
+                        <segue destination="fDT-rH-fV7" kind="unwind" identifier="unwindidentifier" unwindAction="unwindFromSaveWithSegue:" id="gq2-mt-Jvb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -125,7 +126,7 @@
                     <navigationItem key="navigationItem" id="oOQ-H1-B6H">
                         <barButtonItem key="rightBarButtonItem" title="Item" systemItem="add" id="Qeg-mm-aCf">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="wJg-kw-CIM"/>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="" id="wJg-kw-CIM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

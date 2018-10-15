@@ -13,8 +13,6 @@
 		AA223AC12171295B002C0B6D /* oct_11_coredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA223ABF2171295B002C0B6D /* oct_11_coredata.xcdatamodeld */; };
 		AA223AC32171295D002C0B6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA223AC22171295D002C0B6D /* Assets.xcassets */; };
 		AA223AC62171295D002C0B6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA223AC42171295D002C0B6D /* LaunchScreen.storyboard */; };
-		AA223AD12171295D002C0B6D /* oct_11_coredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223AD02171295D002C0B6D /* oct_11_coredataTests.swift */; };
-		AA223ADC2171295D002C0B6D /* oct_11_coredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223ADB2171295D002C0B6D /* oct_11_coredataUITests.swift */; };
 		AA223AEA21712BDA002C0B6D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA223AE921712BDA002C0B6D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA223AB52171295B002C0B6D /* oct_11_coredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oct_11_coredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA223AB52171295B002C0B6D /* W08_bujula-jayanthreddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W08_bujula-jayanthreddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA223AB82171295B002C0B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA223ABA2171295B002C0B6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA223ABD2171295B002C0B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,12 +42,8 @@
 		AA223AC22171295D002C0B6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA223AC52171295D002C0B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA223AC72171295D002C0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA223ACC2171295D002C0B6D /* oct_11_coredataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oct_11_coredataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA223AD02171295D002C0B6D /* oct_11_coredataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oct_11_coredataTests.swift; sourceTree = "<group>"; };
-		AA223AD22171295D002C0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA223AD72171295D002C0B6D /* oct_11_coredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oct_11_coredataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA223ADB2171295D002C0B6D /* oct_11_coredataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oct_11_coredataUITests.swift; sourceTree = "<group>"; };
-		AA223ADD2171295D002C0B6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA223ACC2171295D002C0B6D /* W08_bujula-jayanthreddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W08_bujula-jayanthreddyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA223AD72171295D002C0B6D /* W08_bujula-jayanthreddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "W08_bujula-jayanthreddyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA223AE921712BDA002C0B6D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,9 +75,7 @@
 		AA223AAC2171295B002C0B6D = {
 			isa = PBXGroup;
 			children = (
-				AA223AB72171295B002C0B6D /* oct_11_coredata */,
-				AA223ACF2171295D002C0B6D /* oct_11_coredataTests */,
-				AA223ADA2171295D002C0B6D /* oct_11_coredataUITests */,
+				AA223AB72171295B002C0B6D /* W08_bujula-jayanthreddy */,
 				AA223AB62171295B002C0B6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +83,14 @@
 		AA223AB62171295B002C0B6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA223AB52171295B002C0B6D /* oct_11_coredata.app */,
-				AA223ACC2171295D002C0B6D /* oct_11_coredataTests.xctest */,
-				AA223AD72171295D002C0B6D /* oct_11_coredataUITests.xctest */,
+				AA223AB52171295B002C0B6D /* W08_bujula-jayanthreddy.app */,
+				AA223ACC2171295D002C0B6D /* W08_bujula-jayanthreddyTests.xctest */,
+				AA223AD72171295D002C0B6D /* W08_bujula-jayanthreddyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA223AB72171295B002C0B6D /* oct_11_coredata */ = {
+		AA223AB72171295B002C0B6D /* W08_bujula-jayanthreddy */ = {
 			isa = PBXGroup;
 			children = (
 				AA223AB82171295B002C0B6D /* AppDelegate.swift */,
@@ -110,33 +102,15 @@
 				AA223ABF2171295B002C0B6D /* oct_11_coredata.xcdatamodeld */,
 				AA223AE921712BDA002C0B6D /* TableViewController.swift */,
 			);
-			path = oct_11_coredata;
-			sourceTree = "<group>";
-		};
-		AA223ACF2171295D002C0B6D /* oct_11_coredataTests */ = {
-			isa = PBXGroup;
-			children = (
-				AA223AD02171295D002C0B6D /* oct_11_coredataTests.swift */,
-				AA223AD22171295D002C0B6D /* Info.plist */,
-			);
-			path = oct_11_coredataTests;
-			sourceTree = "<group>";
-		};
-		AA223ADA2171295D002C0B6D /* oct_11_coredataUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AA223ADB2171295D002C0B6D /* oct_11_coredataUITests.swift */,
-				AA223ADD2171295D002C0B6D /* Info.plist */,
-			);
-			path = oct_11_coredataUITests;
+			path = "W08_bujula-jayanthreddy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA223AB42171295B002C0B6D /* oct_11_coredata */ = {
+		AA223AB42171295B002C0B6D /* W08_bujula-jayanthreddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA223AE02171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredata" */;
+			buildConfigurationList = AA223AE02171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddy" */;
 			buildPhases = (
 				AA223AB12171295B002C0B6D /* Sources */,
 				AA223AB22171295B002C0B6D /* Frameworks */,
@@ -146,14 +120,14 @@
 			);
 			dependencies = (
 			);
-			name = oct_11_coredata;
+			name = "W08_bujula-jayanthreddy";
 			productName = oct_11_coredata;
-			productReference = AA223AB52171295B002C0B6D /* oct_11_coredata.app */;
+			productReference = AA223AB52171295B002C0B6D /* W08_bujula-jayanthreddy.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA223ACB2171295D002C0B6D /* oct_11_coredataTests */ = {
+		AA223ACB2171295D002C0B6D /* W08_bujula-jayanthreddyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA223AE32171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredataTests" */;
+			buildConfigurationList = AA223AE32171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddyTests" */;
 			buildPhases = (
 				AA223AC82171295D002C0B6D /* Sources */,
 				AA223AC92171295D002C0B6D /* Frameworks */,
@@ -164,14 +138,14 @@
 			dependencies = (
 				AA223ACE2171295D002C0B6D /* PBXTargetDependency */,
 			);
-			name = oct_11_coredataTests;
+			name = "W08_bujula-jayanthreddyTests";
 			productName = oct_11_coredataTests;
-			productReference = AA223ACC2171295D002C0B6D /* oct_11_coredataTests.xctest */;
+			productReference = AA223ACC2171295D002C0B6D /* W08_bujula-jayanthreddyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA223AD62171295D002C0B6D /* oct_11_coredataUITests */ = {
+		AA223AD62171295D002C0B6D /* W08_bujula-jayanthreddyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA223AE62171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredataUITests" */;
+			buildConfigurationList = AA223AE62171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddyUITests" */;
 			buildPhases = (
 				AA223AD32171295D002C0B6D /* Sources */,
 				AA223AD42171295D002C0B6D /* Frameworks */,
@@ -182,9 +156,9 @@
 			dependencies = (
 				AA223AD92171295D002C0B6D /* PBXTargetDependency */,
 			);
-			name = oct_11_coredataUITests;
+			name = "W08_bujula-jayanthreddyUITests";
 			productName = oct_11_coredataUITests;
-			productReference = AA223AD72171295D002C0B6D /* oct_11_coredataUITests.xctest */;
+			productReference = AA223AD72171295D002C0B6D /* W08_bujula-jayanthreddyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AA223AB02171295B002C0B6D /* Build configuration list for PBXProject "oct_11_coredata" */;
+			buildConfigurationList = AA223AB02171295B002C0B6D /* Build configuration list for PBXProject "W08_bujula-jayanthreddy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +197,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA223AB42171295B002C0B6D /* oct_11_coredata */,
-				AA223ACB2171295D002C0B6D /* oct_11_coredataTests */,
-				AA223AD62171295D002C0B6D /* oct_11_coredataUITests */,
+				AA223AB42171295B002C0B6D /* W08_bujula-jayanthreddy */,
+				AA223ACB2171295D002C0B6D /* W08_bujula-jayanthreddyTests */,
+				AA223AD62171295D002C0B6D /* W08_bujula-jayanthreddyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA223AD12171295D002C0B6D /* oct_11_coredataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA223ADC2171295D002C0B6D /* oct_11_coredataUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +262,12 @@
 /* Begin PBXTargetDependency section */
 		AA223ACE2171295D002C0B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA223AB42171295B002C0B6D /* oct_11_coredata */;
+			target = AA223AB42171295B002C0B6D /* W08_bujula-jayanthreddy */;
 			targetProxy = AA223ACD2171295D002C0B6D /* PBXContainerItemProxy */;
 		};
 		AA223AD92171295D002C0B6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA223AB42171295B002C0B6D /* oct_11_coredata */;
+			target = AA223AB42171295B002C0B6D /* W08_bujula-jayanthreddy */;
 			targetProxy = AA223AD82171295D002C0B6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -441,7 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = oct_11_coredata/Info.plist;
+				INFOPLIST_FILE = "W08_bujula-jayanthreddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,7 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = oct_11_coredata/Info.plist;
+				INFOPLIST_FILE = "W08_bujula-jayanthreddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oct_11_coredata.app/oct_11_coredata";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W08_bujula-jayanthreddy.app/W08_bujula-jayanthreddy";
 			};
 			name = Debug;
 		};
@@ -506,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oct_11_coredata.app/oct_11_coredata";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W08_bujula-jayanthreddy.app/W08_bujula-jayanthreddy";
 			};
 			name = Release;
 		};
@@ -551,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA223AB02171295B002C0B6D /* Build configuration list for PBXProject "oct_11_coredata" */ = {
+		AA223AB02171295B002C0B6D /* Build configuration list for PBXProject "W08_bujula-jayanthreddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA223ADE2171295D002C0B6D /* Debug */,
@@ -560,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA223AE02171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredata" */ = {
+		AA223AE02171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA223AE12171295D002C0B6D /* Debug */,
@@ -569,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA223AE32171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredataTests" */ = {
+		AA223AE32171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA223AE42171295D002C0B6D /* Debug */,
@@ -578,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA223AE62171295D002C0B6D /* Build configuration list for PBXNativeTarget "oct_11_coredataUITests" */ = {
+		AA223AE62171295D002C0B6D /* Build configuration list for PBXNativeTarget "W08_bujula-jayanthreddyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AA223AE72171295D002C0B6D /* Debug */,
